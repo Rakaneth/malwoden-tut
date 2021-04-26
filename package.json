@@ -1,0 +1,30 @@
+{
+  "name": "malwoden-tut",
+  "version": "0.0.1",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve --open",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rakaneth/malwoden-tut.git"
+  },
+  "author": "Rakaneth",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rakaneth/malwoden-tut/issues"
+  },
+  "homepage": "https://github.com/Rakaneth/malwoden-tut#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^5.3.1",
+    "webpack": "^5.35.1",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "malwoden": "^0.2.0"
+  }
+}
